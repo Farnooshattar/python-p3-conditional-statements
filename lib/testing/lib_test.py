@@ -28,6 +28,7 @@ class TestHowsTheWeather:
     def test_under_40_brisk(self):
         '''returns "It's brisk out there" for temperature=33'''
         assert(hows_the_weather(33) == "It's brisk out there!")
+        
 
     def test_under_65_chilly(self):
         '''returns "It's a little chilly out there!" for temperature=55'''
